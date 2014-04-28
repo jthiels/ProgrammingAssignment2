@@ -1,7 +1,7 @@
 ## These functions permit the solving and caching of the inverse of a numeric matrix
 ## which is particularly useful if the matrix is large.
 
-## makeCacheMatrix() takes a numeric matrix and creates functions whereby it can be cached
+## makeCacheMatrix() takes a square numeric matrix and creates functions whereby it can be cached
 ## and the inverse of the matrix solved and cached.
 
 makeCacheMatrix <- function(x = matrix()) {
